@@ -77,7 +77,6 @@ class ViewController: UIViewController {
                         self.loginWithToken(requestToken: requestToken)
                         self.getSessionID(requestToken: requestToken)
                         
-                        //self.completeLogin()
                     }
                 } else {
                     DispatchQueue.main.async {
