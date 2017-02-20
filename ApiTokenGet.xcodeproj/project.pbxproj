@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					59777FF51E5A782C00DF0056 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HUU6BYRNCF;
 						ProvisioningStyle = Automatic;
 					};
 					597780091E5A782C00DF0056 = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUU6BYRNCF;
 				INFOPLIST_FILE = ApiTokenGet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eloispy.ApiTokenGet;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HUU6BYRNCF;
 				INFOPLIST_FILE = ApiTokenGet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eloispy.ApiTokenGet;
@@ -505,6 +508,7 @@
 				597780201E5A782C00DF0056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		597780211E5A782C00DF0056 /* Build configuration list for PBXNativeTarget "ApiTokenGetTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				597780231E5A782C00DF0056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		597780241E5A782C00DF0056 /* Build configuration list for PBXNativeTarget "ApiTokenGetUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				597780261E5A782C00DF0056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
