@@ -76,7 +76,6 @@ class ViewController: UIViewController {
                         self.debug.text = "got request token: \(requestToken)"
                         self.loginWithToken(requestToken: requestToken)
                         self.getSessionID(requestToken: requestToken)
-                        
                     }
                 } else {
                     DispatchQueue.main.async {
