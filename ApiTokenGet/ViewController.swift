@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func login(_ sender: Any) {
-        if (username.text?.isEmpty)!{
+       /* if (username.text?.isEmpty)!{
             debug.text = "Username is empty"
         } else if (password.text?.isEmpty)! {
             debug.text = "Passwor is empty"
@@ -48,6 +48,17 @@ class ViewController: UIViewController {
            getRequestToken()
 
             
+        }*/
+        
+        let url = URL(string: "patientIOS://")
+        if UIApplication.shared.canOpenURL(url!) {
+            UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+            //If you want handle the completion block than
+            UIApplication.shared.open(url!, options: [:], completionHandler: { (success) in
+                print("Open url : \(success)")
+                
+                self.debug.text = "Open url : \(success)"
+            })
         }
     }
     
