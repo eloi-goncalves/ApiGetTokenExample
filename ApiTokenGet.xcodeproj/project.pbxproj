@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					59777FF51E5A782C00DF0056 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HUU6BYRNCF;
+						DevelopmentTeam = 5997U3TUL2;
 						ProvisioningStyle = Automatic;
 					};
 					597780091E5A782C00DF0056 = {
@@ -413,7 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HUU6BYRNCF;
+				DEVELOPMENT_TEAM = 5997U3TUL2;
 				INFOPLIST_FILE = ApiTokenGet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eloispy.ApiTokenGet;
@@ -426,7 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HUU6BYRNCF;
+				DEVELOPMENT_TEAM = 5997U3TUL2;
 				INFOPLIST_FILE = ApiTokenGet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eloispy.ApiTokenGet;

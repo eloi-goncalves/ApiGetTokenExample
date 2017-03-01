@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             
         }*/
         
-        let url = URL(string: "patientIOS://")
+        let url = URL(string: "patient://token?666")
         if UIApplication.shared.canOpenURL(url!) {
             UIApplication.shared.open(url!, options: [:], completionHandler: nil)
             //If you want handle the completion block than
